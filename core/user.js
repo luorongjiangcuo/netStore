@@ -27,7 +27,7 @@ export default {
             }
             const pages = getCurrentPages();
             const currentPage = pages[pages.length - 1];
-            currentPage.$vm.$store.commit('user/showLoginModal', true);
+            currentPage.$vm.$store.commit('user/showLoginModal', false);
             this.getUserInfoResolve = (userInfoResult) => {
                 uni.showLoading({
                     mask: true,

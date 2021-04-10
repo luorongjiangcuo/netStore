@@ -258,7 +258,7 @@
                 poster_generate: this.$api.poster.goods_new,
                 // 限时抢购
 				flash_sale: null,
-                checked: null,
+                checked: {},
                 // 商品服务
                 services: null,
                 // 商品详情

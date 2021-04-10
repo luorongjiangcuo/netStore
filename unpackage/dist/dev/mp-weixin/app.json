@@ -552,6 +552,5 @@
     "app-css-icon": "/components/basic-component/app-css-icon/app-css-icon",
     "app-member-price": "/components/page-component/app-member-mark/app-member-price",
     "app-sup-vip": "/components/page-component/app-sup-vip/app-sup-vip"
-  },
-  "sitemapLocation": "sitemap51.json"
+  }
 }

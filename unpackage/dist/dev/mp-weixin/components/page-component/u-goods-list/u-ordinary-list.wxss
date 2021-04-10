@@ -179,7 +179,6 @@ page.data-v-06e0c1b4 {
 }
 .u-price-margin.data-v-06e0c1b4 {
   margin-top: 5rpx;
-  width: 209rpx;
 }
 .u-list-mode.data-v-06e0c1b4 {
   margin-bottom: 32rpx;
@@ -315,7 +314,11 @@ page.data-v-06e0c1b4 {
 .u-one-line-two .u-goods-name.data-v-06e0c1b4 {
   margin-top: 20rpx;
   font-size: 28rpx;
+  padding: 0 24rpx;
   line-height: 38rpx;
+}
+.u-one-line-two .u-price.data-v-06e0c1b4 {
+  padding: 0 24rpx;
 }
 .u-one-line-two .u-goods-price.data-v-06e0c1b4 {
   font-size: 28rpx;
