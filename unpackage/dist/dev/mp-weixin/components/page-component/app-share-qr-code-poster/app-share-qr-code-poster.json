@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "app-permissions-auth": "/components/basic-component/app-layout/app-permissions-auth/app-permissions-auth"
+  }
+}

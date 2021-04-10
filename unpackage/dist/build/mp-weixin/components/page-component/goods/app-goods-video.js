@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["components/page-component/goods/app-goods-video"],{"10be":function(t,e,n){"use strict";n.r(e);var i=n("3520"),o=n.n(i);for(var a in i)"default"!==a&&function(t){n.d(e,t,(function(){return i[t]}))}(a);e["default"]=o.a},"32ea":function(t,e,n){"use strict";n.r(e);var i=n("6fa4"),o=n("10be");for(var a in o)"default"!==a&&function(t){n.d(e,t,(function(){return o[t]}))}(a);n("e3d0");var u,d=n("f0c5"),r=Object(d["a"])(o["default"],i["b"],i["c"],!1,null,"32490253",null,!1,i["a"],u);e["default"]=r.exports},3520:function(t,e,n){"use strict";(function(t){Object.defineProperty(e,"__esModule",{value:!0}),e.default=void 0;var n={props:{video_id:{type:Number,default:0},video_url:{type:String,default:""},play:{type:Boolean,default:!1},height:{type:String,default:""},width:{type:String,default:""}},data:function(){return{loading:!0}},methods:{videoPlay:function(){this.videoCtx=t.createVideoContext("video_".concat(this.video_id),this),this.play?this.videoCtx.play():this.videoCtx.pause()},waiting:function(){this.loading=!1},pause:function(){},setPlay:function(){this.loading=!0}},watch:{play:{handler:function(){this.videoPlay()}}},beforeDestroy:function(){this.videoCtx=null}};e.default=n}).call(this,n("543d")["default"])},"3b47":function(t,e,n){},"6fa4":function(t,e,n){"use strict";var i;n.d(e,"b",(function(){return o})),n.d(e,"c",(function(){return a})),n.d(e,"a",(function(){return i}));var o=function(){var t=this,e=t.$createElement;t._self._c},a=[]},e3d0:function(t,e,n){"use strict";var i=n("3b47"),o=n.n(i);o.a}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'components/page-component/goods/app-goods-video-create-component',
+    {
+        'components/page-component/goods/app-goods-video-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("32ea"))
+        })
+    },
+    [['components/page-component/goods/app-goods-video-create-component']]
+]);

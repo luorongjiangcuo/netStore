@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["plugins/gift/components/detail/receiving-status"],{6155:function(t,e,n){"use strict";n.r(e);var r=n("bc4c"),i=n("b494");for(var u in i)"default"!==u&&function(t){n.d(e,t,(function(){return i[t]}))}(u);n("6500");var a,o=n("f0c5"),c=Object(o["a"])(i["default"],r["b"],r["c"],!1,null,"2b8e0183",null,!1,r["a"],a);e["default"]=c.exports},6500:function(t,e,n){"use strict";var r=n("7933"),i=n.n(r);i.a},"68d9":function(t,e,n){"use strict";(function(t){Object.defineProperty(e,"__esModule",{value:!0}),e.default=void 0;var n={name:"receiving-status",props:["theme","type","gift_id","status","status_num","user_id","order_id","notPayOrder","detail"],methods:{route_go:function(e){t.navigateTo({url:e})},setShare:function(){this.$emit("setShare")},receipt:function(){this.$emit("receipt",this.order_id)},getConvert:function(t){for(var e=!0,n=0;n<t.length;n++)-1==t[n].is_convert&&(e=!1);return e}}};e.default=n}).call(this,n("543d")["default"])},7933:function(t,e,n){},b494:function(t,e,n){"use strict";n.r(e);var r=n("68d9"),i=n.n(r);for(var u in r)"default"!==u&&function(t){n.d(e,t,(function(){return r[t]}))}(u);e["default"]=i.a},bc4c:function(t,e,n){"use strict";var r;n.d(e,"b",(function(){return i})),n.d(e,"c",(function(){return u})),n.d(e,"a",(function(){return r}));var i=function(){var t=this,e=t.$createElement,n=(t._self._c,t.getConvert(t.detail)),r=t.getConvert(t.detail),i=t.getConvert(t.detail),u=t.getConvert(t.detail);t.$mp.data=Object.assign({},{$root:{m0:n,m1:r,m2:i,m3:u}})},u=[]}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'plugins/gift/components/detail/receiving-status-create-component',
+    {
+        'plugins/gift/components/detail/receiving-status-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("6155"))
+        })
+    },
+    [['plugins/gift/components/detail/receiving-status-create-component']]
+]);

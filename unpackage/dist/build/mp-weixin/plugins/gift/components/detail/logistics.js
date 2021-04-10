@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["plugins/gift/components/detail/logistics"],{"07f4":function(e,t,s){"use strict";s.r(t);var n=s("3df7"),o=s.n(n);for(var r in n)"default"!==r&&function(e){s.d(t,e,(function(){return n[e]}))}(r);t["default"]=o.a},"0eb6":function(e,t,s){"use strict";var n;s.d(t,"b",(function(){return o})),s.d(t,"c",(function(){return r})),s.d(t,"a",(function(){return n}));var o=function(){var e=this,t=e.$createElement;e._self._c},r=[]},"3df7":function(e,t,s){"use strict";(function(e){Object.defineProperty(t,"__esModule",{value:!0}),t.default=void 0;var s={name:"logistics",props:["send_type","store","is_send","express","express_no","customer_name","cover_pic"],methods:{routeGo:function(){1!=this.send_type&&1==this.is_send&&this.express_no?e.navigateTo({url:"/pages/order/express-detail/express-detail?express=".concat(this.express,"&express_no=").concat(this.express_no,"&customer_name=").concat(this.customer_name,"&cover_pic=").concat(this.cover_pic)}):e.openLocation({latitude:parseFloat(this.store.latitude),longitude:parseFloat(this.store.longitude),address:this.store.address,name:this.store.name})}}};t.default=s}).call(this,s("543d")["default"])},"55ee":function(e,t,s){"use strict";var n=s("6b30"),o=s.n(n);o.a},"6b30":function(e,t,s){},de7c:function(e,t,s){"use strict";s.r(t);var n=s("0eb6"),o=s("07f4");for(var r in o)"default"!==r&&function(e){s.d(t,e,(function(){return o[e]}))}(r);s("55ee");var i,a=s("f0c5"),c=Object(a["a"])(o["default"],n["b"],n["c"],!1,null,"533b5b3c",null,!1,n["a"],i);t["default"]=c.exports}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'plugins/gift/components/detail/logistics-create-component',
+    {
+        'plugins/gift/components/detail/logistics-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("de7c"))
+        })
+    },
+    [['plugins/gift/components/detail/logistics-create-component']]
+]);

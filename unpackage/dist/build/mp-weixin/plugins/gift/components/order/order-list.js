@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["plugins/gift/components/order/order-list"],{"1c85":function(t,r,n){"use strict";var e=n("8fbe"),i=n.n(e);i.a},"4bdd":function(t,r,n){"use strict";var e;n.d(r,"b",(function(){return i})),n.d(r,"c",(function(){return o})),n.d(r,"a",(function(){return e}));var i=function(){var t=this,r=t.$createElement,n=(t._self._c,t.__map(t.order_list,(function(r,n){var e=t.__get_orig(r),i=0===r.is_big_gift?t.getPicUrl(r.sendOrder[0].detail[0].goods_info):null,o=0===r.is_big_gift?JSON.parse(r.sendOrder[0].detail[0].goods_info):null;return{$orig:e,m0:i,g0:o}})));t.$mp.data=Object.assign({},{$root:{l0:n}})},o=[]},"55b6":function(t,r,n){"use strict";n.r(r);var e=n("4bdd"),i=n("59bd");for(var o in i)"default"!==o&&function(t){n.d(r,t,(function(){return i[t]}))}(o);n("1c85");var u,a=n("f0c5"),c=Object(a["a"])(i["default"],e["b"],e["c"],!1,null,"28db1148",null,!1,e["a"],u);r["default"]=c.exports},"59bd":function(t,r,n){"use strict";n.r(r);var e=n("922e"),i=n.n(e);for(var o in e)"default"!==o&&function(t){n.d(r,t,(function(){return e[t]}))}(o);r["default"]=i.a},"8fbe":function(t,r,n){},"922e":function(t,r,n){"use strict";(function(t){Object.defineProperty(r,"__esModule",{value:!0}),r.default=void 0;var n={name:"order-list",props:{theme:String,order_list:Array,tab_status:Number,big_gift_pic:String},methods:{redirectTo:function(){t.redirectTo({url:"/plugins/gift/index/index"})},navigateTo:function(r){t.navigateTo({url:r})},getPicUrl:function(t){var r=JSON.parse(t).goods_attr;return r.pic_url?r.pic_url:r.cover_pic}}};r.default=n}).call(this,n("543d")["default"])}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'plugins/gift/components/order/order-list-create-component',
+    {
+        'plugins/gift/components/order/order-list-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("55b6"))
+        })
+    },
+    [['plugins/gift/components/order/order-list-create-component']]
+]);

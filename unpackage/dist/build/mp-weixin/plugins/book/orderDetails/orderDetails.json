@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "订单详情",
+  "usingComponents": {
+    "app-store": "/plugins/book/components/app-store",
+    "app-prompt-box": "/components/basic-component/app-prompt-box/app-prompt-box",
+    "app-write-off-code": "/plugins/book/components/app-write-off-code"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "app-order-goods-info": "/components/page-component/app-order-goods-info/app-order-goods-info"
+  }
+}

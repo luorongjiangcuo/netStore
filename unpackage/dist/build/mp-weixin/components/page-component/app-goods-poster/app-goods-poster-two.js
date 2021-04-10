@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["components/page-component/app-goods-poster/app-goods-poster-two"],{"155b":function(t,o,n){"use strict";var e=n("4de0"),r=n.n(e);r.a},3864:function(t,o,n){"use strict";Object.defineProperty(o,"__esModule",{value:!0}),o.default=void 0;var e=function(){n.e("components/page-component/app-goods-poster/app-poster-image").then(function(){return resolve(n("a41d"))}.bind(null,n)).catch(n.oe)},r=function(){n.e("components/page-component/app-goods-poster/app-poster-price").then(function(){return resolve(n("0d08"))}.bind(null,n)).catch(n.oe)},c={name:"app-goods-poster-two",components:{appPosterImage:e,appPosterPrice:r},props:{iconPlugin:Object,multiple:Number,info:Object,form:Object},computed:{background:function(){if(2===parseInt(this.form.type)){var t=this.form.color,o=this.$utils.colorRgba(this.form.color,.5);return"linear-gradient("+t+","+o+")"}return this.form.color}}};o.default=c},"4de0":function(t,o,n){},"7b3b":function(t,o,n){"use strict";var e;n.d(o,"b",(function(){return r})),n.d(o,"c",(function(){return c})),n.d(o,"a",(function(){return e}));var r=function(){var t=this,o=t.$createElement;t._self._c},c=[]},"925c":function(t,o,n){"use strict";n.r(o);var e=n("3864"),r=n.n(e);for(var c in e)"default"!==c&&function(t){n.d(o,t,(function(){return e[t]}))}(c);o["default"]=r.a},bfd6:function(t,o,n){"use strict";n.r(o);var e=n("7b3b"),r=n("925c");for(var c in r)"default"!==c&&function(t){n.d(o,t,(function(){return r[t]}))}(c);n("155b");var a,u=n("f0c5"),p=Object(u["a"])(r["default"],e["b"],e["c"],!1,null,"0787cc1a",null,!1,e["a"],a);o["default"]=p.exports}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'components/page-component/app-goods-poster/app-goods-poster-two-create-component',
+    {
+        'components/page-component/app-goods-poster/app-goods-poster-two-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("bfd6"))
+        })
+    },
+    [['components/page-component/app-goods-poster/app-goods-poster-two-create-component']]
+]);

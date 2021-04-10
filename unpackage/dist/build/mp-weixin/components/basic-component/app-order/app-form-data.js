@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["components/basic-component/app-order/app-form-data"],{5592:function(n,t,e){"use strict";e.r(t);var r=e("c5d2"),o=e("c84a");for(var a in o)"default"!==a&&function(n){e.d(t,n,(function(){return o[n]}))}(a);e("5670");var u,c=e("f0c5"),i=Object(c["a"])(o["default"],r["b"],r["c"],!1,null,"daf3bc38",null,!1,r["a"],u);t["default"]=i.exports},5670:function(n,t,e){"use strict";var r=e("6c13"),o=e.n(r);o.a},"6c13":function(n,t,e){},c5d2:function(n,t,e){"use strict";var r;e.d(t,"b",(function(){return o})),e.d(t,"c",(function(){return a})),e.d(t,"a",(function(){return r}));var o=function(){var n=this,t=n.$createElement,e=(n._self._c,n.__map(n.detail,(function(t,e){var r=n.__get_orig(t),o=n.__map(t.form_data,(function(t,e){var r=n.__get_orig(t),o=[",","",null].indexOf(String(t.value)),a=t.value&&-1===o&&"img_upload"===t.key?Array.isArray(t.value):null;return{$orig:r,g0:o,g1:a}}));return{$orig:r,l0:o}})));n.$mp.data=Object.assign({},{$root:{l1:e}})},a=[]},c84a:function(n,t,e){"use strict";e.r(t);var r=e("e66d"),o=e.n(r);for(var a in r)"default"!==a&&function(n){e.d(t,n,(function(){return r[n]}))}(a);t["default"]=o.a},e66d:function(n,t,e){"use strict";(function(n){Object.defineProperty(t,"__esModule",{value:!0}),t.default=void 0;var r=function(){e.e("components/page-component/app-order-goods-info/app-order-goods-info").then(function(){return resolve(e("48cc"))}.bind(null,e)).catch(e.oe)},o={components:{appOrderGoodsInfo:r},props:{detail:{type:Array,default:[]}},data:function(){return{}},methods:{showImgg:function(t){n.previewImage({current:t,urls:[t]})}}};t.default=o}).call(this,e("543d")["default"])}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'components/basic-component/app-order/app-form-data-create-component',
+    {
+        'components/basic-component/app-order/app-form-data-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("5592"))
+        })
+    },
+    [['components/basic-component/app-order/app-form-data-create-component']]
+]);
