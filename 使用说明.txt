@@ -1,0 +1,20 @@
+
+
+
+,
+        {
+            "root": "pages/live/",
+            "pages": [
+                "index",
+                "playback"
+            ],
+            "plugins": {
+                "live-player-plugin": {
+                    "version": "1.0.3",
+                    "provider": "wx2b03c6e691cd7370"
+                }
+            }
+        }
+
+
+如果没有开直播的客户    删除上面代码，记得连逗号也删掉

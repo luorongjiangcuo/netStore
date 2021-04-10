@@ -1,0 +1,50 @@
+{
+    "name" : "hjmp-weixin",
+    "appid" : "__UNI__BB3405B",
+    "description" : "",
+    "versionName" : "1.0.0",
+    "versionCode" : "100",
+    "transformPx" : false,
+    "uniStatistics" : {
+        "enable" : false
+    },
+    "app-plus" : {
+        "modules" : {},
+        "distribute" : {
+            "sdkConfigs" : {
+                "payment" : {}
+            }
+        }
+    },
+    "quickapp" : {},
+    "mp-weixin" : {
+        "appid" : "wxd7992ad53447080a",
+        "setting" : {
+            "urlCheck" : false,
+            "minified" : true,
+            "postcss" : true,
+            "es6" : false
+        },
+        "usingComponents" : true,
+        "permission" : {
+            "scope.userLocation" : {
+                "desc" : "请求获取您的位置信息"
+            }
+        }
+    },
+    "mp-alipay" : {
+        "usingComponents" : true
+    },
+    "mp-baidu" : {
+        "appid" : "",
+        "usingComponents" : true
+    },
+    "mp-toutiao" : {
+        "appid" : "",
+        "usingComponents" : true,
+        "urlCheck" : false
+    },
+    "mp-qq" : {
+        "usingComponents" : true
+    }
+}
